@@ -219,8 +219,4 @@ function M.toggle_foldcolumn()
   ui_notify(string.format("foldcolumn=%s", vim.wo.foldcolumn))
 end
 
-function M.end_of_line()
-  vim.opt.listchars = {end_of_line, "↵"}
-end
-
 return M
